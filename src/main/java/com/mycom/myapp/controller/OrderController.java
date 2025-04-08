@@ -21,10 +21,7 @@ public class OrderController {
 		this.orderService = orderService;
 	}
 	
-	@GetMapping(value="/")
-	public String orderMain() {
-		return "orders";
-	}
+	
 	
 	@GetMapping("/list")
 	@ResponseBody

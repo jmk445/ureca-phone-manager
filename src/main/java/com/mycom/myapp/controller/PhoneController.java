@@ -32,10 +32,10 @@ public class PhoneController {
 	
 	//index.html의 도서관리 링크 대응
 	//phones.jsp로 이동
-	@GetMapping(value="/")
-	public String phoneMain() {
-		return "phones";
-	}
+//	@GetMapping(value="/")
+//	public String phoneMain() {
+//		return "phones";
+//	}
 		
 	//목록 : 	/phones/list,   		get,  X,		, list.jsp
 	@GetMapping("/list")

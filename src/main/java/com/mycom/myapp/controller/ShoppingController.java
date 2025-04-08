@@ -24,10 +24,10 @@ public class ShoppingController {
 		this.shoppingService = shoppingService;
 	}
 		
-	@GetMapping(value="/")	
-	public String shoppingMain() {
-		return "shopping";
-	}
+//	@GetMapping(value="/")	
+//	public String shoppingMain() {
+//		return "shopping";
+//	}
 	
 	@GetMapping(value ="/getCart")
 	@ResponseBody

@@ -8,24 +8,24 @@ public class UserDto {
 	private String userName;
 	private String userPassword;
 	private String userEmail;
-	private String profileImage;
+	private String userProfileImage;
 	private Date registerDate;
 	public UserDto() {
 	}
-	public UserDto(int userSeq, String userName, String userPassword, String userEmail, String profileImage,
+	public UserDto(int userSeq, String userName, String userPassword, String userEmail, String userProfileImage,
 			Date registerDate) {
 		super();
 		this.userSeq = userSeq;
 		this.userName = userName;
 		this.userPassword = userPassword;
 		this.userEmail = userEmail;
-		this.profileImage = profileImage;
+		this.userProfileImage = userProfileImage;
 		this.registerDate = registerDate;
 	}
 	@Override
 	public String toString() {
 		return "UserDto [userSeq=" + userSeq + ", userName=" + userName + ", userPassword=" + userPassword + ", userEmail="
-				+ userEmail + ", profileImage=" + profileImage + ", registerDate=" + registerDate + "]";
+				+ userEmail + ", profileImage=" + userProfileImage + ", registerDate=" + registerDate + "]";
 	}
 	public int getUserSeq() {
 		return userSeq;
@@ -52,10 +52,10 @@ public class UserDto {
 		this.userEmail = userEmail;
 	}
 	public String getProfileImage() {
-		return profileImage;
+		return userProfileImage;
 	}
 	public void setProfileImage(String profileImage) {
-		this.profileImage = profileImage;
+		this.userProfileImage = profileImage;
 	}
 	public Date getRegisterDate() {
 		return registerDate;

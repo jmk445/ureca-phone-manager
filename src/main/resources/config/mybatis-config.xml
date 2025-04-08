@@ -13,6 +13,7 @@
         <mapper resource="mapper/customer-mapper.xml"/>    
         <mapper resource="mapper/shopping-mapper.xml"/>    
         <mapper resource="mapper/user-mapper.xml"/>    
+        <mapper resource="mapper/login-mapper.xml"/>    
             
     </mappers>
 </configuration>
