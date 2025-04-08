@@ -1,4 +1,4 @@
-package com.mycom.myapp.controller;
+package com.mycom.myapp.customer.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.mycom.myapp.dto.Customer;
-import com.mycom.myapp.service.CustomerService;
+import com.mycom.myapp.customer.dto.Customer;
+import com.mycom.myapp.customer.service.CustomerService;
 
 @Controller
 @RequestMapping("/customers")

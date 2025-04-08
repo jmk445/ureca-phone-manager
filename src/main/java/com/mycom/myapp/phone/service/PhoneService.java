@@ -1,11 +1,11 @@
-package com.mycom.myapp.service;
+package com.mycom.myapp.phone.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.mycom.myapp.dao.PhoneDao;
-import com.mycom.myapp.dto.Phone;
+import com.mycom.myapp.phone.dao.PhoneDao;
+import com.mycom.myapp.phone.dto.Phone;
 
 @Service
 public class PhoneService {

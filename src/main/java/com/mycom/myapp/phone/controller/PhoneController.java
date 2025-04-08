@@ -1,4 +1,4 @@
-package com.mycom.myapp.controller;
+package com.mycom.myapp.phone.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.mycom.myapp.dto.Phone;
-import com.mycom.myapp.service.PhoneService;
+import com.mycom.myapp.phone.dto.Phone;
+import com.mycom.myapp.phone.service.PhoneService;
 
 //Controller는 항상 front와 back 연결 
 //url mapping은 front와 약속

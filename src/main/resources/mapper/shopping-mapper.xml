@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.mycom.myapp.dao.ShoppingDao">
+<mapper namespace="com.mycom.myapp.shopping.dao.ShoppingDao">
 
-	<select id="listPhonesInCart" resultType="com.mycom.myapp.dto.Phone" parameterType="int">
+	<select id="listPhonesInCart" resultType="com.mycom.myapp.phone.dto.Phone" parameterType="int">
 		select * 
 		  from phone p,shoppingcart_phone sp 
 		 where sp.shoppingcartid = #{shoppingcartId} 

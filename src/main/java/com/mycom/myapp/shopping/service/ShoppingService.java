@@ -1,15 +1,15 @@
-package com.mycom.myapp.service;
+package com.mycom.myapp.shopping.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.mycom.myapp.dao.OrderDao;
-import com.mycom.myapp.dao.PhoneDao;
-import com.mycom.myapp.dao.ShoppingDao;
-import com.mycom.myapp.dto.Phone;
-import com.mycom.myapp.dto.PhoneInCart;
+import com.mycom.myapp.order.dao.OrderDao;
+import com.mycom.myapp.phone.dao.PhoneDao;
+import com.mycom.myapp.phone.dto.Phone;
+import com.mycom.myapp.shopping.dao.ShoppingDao;
+import com.mycom.myapp.shopping.dto.PhoneInCart;
 
 @Service
 public class ShoppingService {

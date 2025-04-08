@@ -1,4 +1,4 @@
-package com.mycom.myapp.dto;
+package com.mycom.myapp.shopping.dto;
 
 public class PhoneInCart {
 	private int shoppingCartId;

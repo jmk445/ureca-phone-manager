@@ -1,7 +1,9 @@
-package com.mycom.myapp.dto;
+package com.mycom.myapp.order.dto;
 
 import java.sql.Timestamp;
 import java.util.List;
+
+import com.mycom.myapp.phone.dto.Phone;
 
 public class Order {
     private int orderId;

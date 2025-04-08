@@ -1,13 +1,13 @@
-package com.mycom.myapp.service;
+package com.mycom.myapp.order.service;
 
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.mycom.myapp.dao.OrderDao;
-import com.mycom.myapp.dto.Order;
-import com.mycom.myapp.dto.Phone;
+import com.mycom.myapp.order.dao.OrderDao;
+import com.mycom.myapp.order.dto.Order;
+import com.mycom.myapp.phone.dto.Phone;
 
 @Service
 public class OrderService {
@@ -19,7 +19,7 @@ public class OrderService {
     	return this.orderDao.listOrders();
     }
     
-//
+
 //    public boolean insertOrder(int shoppingCartId, List<Phone> phoneList) {
 //    	return this.orderDao.insertOrder(shoppingCartId, phoneList);
 //    }

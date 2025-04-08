@@ -1,4 +1,4 @@
-package com.mycom.myapp.controller;
+package com.mycom.myapp.order.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.mycom.myapp.dto.Order;
-import com.mycom.myapp.service.OrderService;
+import com.mycom.myapp.order.dto.Order;
+import com.mycom.myapp.order.service.OrderService;
 
 @Controller
 @RequestMapping("/orders")

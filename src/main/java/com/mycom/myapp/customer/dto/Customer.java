@@ -1,4 +1,4 @@
-package com.mycom.myapp.dto;
+package com.mycom.myapp.customer.dto;
 
 public class Customer {
 private int customerId;

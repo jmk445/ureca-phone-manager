@@ -1,11 +1,11 @@
-package com.mycom.myapp.service;
+package com.mycom.myapp.customer.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.mycom.myapp.dao.CustomerDao;
-import com.mycom.myapp.dto.Customer;
+import com.mycom.myapp.customer.dao.CustomerDao;
+import com.mycom.myapp.customer.dto.Customer;
 
 @Service
 public class CustomerService {

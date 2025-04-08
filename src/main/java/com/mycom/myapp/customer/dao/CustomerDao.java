@@ -1,10 +1,10 @@
-package com.mycom.myapp.dao;
+package com.mycom.myapp.customer.dao;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.mycom.myapp.dto.Customer;
+import com.mycom.myapp.customer.dto.Customer;
 
 @Mapper
 public interface CustomerDao {

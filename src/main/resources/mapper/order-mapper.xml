@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.mycom.myapp.dao.OrderDao">
+<mapper namespace="com.mycom.myapp.order.dao.OrderDao">
 
-<select id="listOrders" resultType="com.mycom.myapp.dto.Order">
+<select id="listOrders" resultType="com.mycom.myapp.order.dto.Order">
     SELECT 
         o.order_id AS OrderId, 
         o.customer_id AS CustomerId,
@@ -34,7 +34,7 @@
 	<select id="getOrderId" resultType="int">
 	    SELECT order_id 
 	    FROM orders 
-	    ORDER BY ordertime DESC 
+	    ORDER BY order_id DESC 
 	    LIMIT 1
 	</select>
 
