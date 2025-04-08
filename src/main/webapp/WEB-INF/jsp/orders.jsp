@@ -25,7 +25,7 @@
 <!--     </form> -->
 <!--     <hr> -->
     
-    
+    <button onclick="location.href='/'">홈</button>
     <script>
         window.onload = function(){
             listOrders();

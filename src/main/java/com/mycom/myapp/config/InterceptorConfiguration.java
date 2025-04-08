@@ -25,7 +25,8 @@ public class InterceptorConfiguration implements WebMvcConfigurer {
 			"/pages/login", // page 요청
 			"/pages/register", 	// page 요청					
 			"/auth/**", 	// 로그인 ajax 요청
-			"/users/**"		// 회원가입 ajax 요청
+			"/users/**",		// 회원가입 ajax 요청
+			"/nav_bar.html"
 		);
 	}
 }

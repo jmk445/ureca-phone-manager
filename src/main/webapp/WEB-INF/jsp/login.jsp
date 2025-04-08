@@ -38,7 +38,7 @@
 			<button type="button" id="btnLogin" class="btn btn-success">로그인</button>
 		</div>
 	</div>    
-    
+    <button onclick="location.href='/'">홈</button>
     <script>
     	window.onload = function(){
     		//btnRegister 처리
@@ -73,8 +73,9 @@
     		
 	    	let response = await fetch("/auth/login",fetchOptions);    		
     		let data = await response.json();
-    		if(data.result == "success"){    			
-    			window.location.href="/phones"    			
+    		if(data.result == "success"){   
+    			alert("로그인 성공했습니다.")
+    			window.location.href="/"    			
     		}else{
     			alert("로그인 도중 문제가 생겼습니다.");
     		}

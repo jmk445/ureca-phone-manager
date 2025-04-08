@@ -25,7 +25,7 @@
     <button type="button" id="btnInsert">Register</button>
     <button type="button" id="btnUpdate">Update</button>
     <button type="button" id="btnDelete">Delete</button>
-    
+    <button onclick="location.href='/'">홈</button>
     <script>
         window.onload = function(){
             listCustomers();

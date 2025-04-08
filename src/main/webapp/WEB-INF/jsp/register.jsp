@@ -54,7 +54,7 @@
 			<button type="button" id="btnRegister" class="btn btn-primary">회원 가입</button>
 		</div>
 	</div>    
-    
+    <button onclick="location.href='/'">홈</button>
     <script>
     	window.onload = function(){
     		//btnRegister 처리
@@ -111,6 +111,7 @@
     		//2글자 이상
     		if(userName.length >=2) return true;
     		return false;
+    		    		
     	}
     	
     	function validateUserPassword(userPassword){
